@@ -1,0 +1,10 @@
+/* components/custom-navbar/custom-navbar.wxss */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60rpx;
+  background-color: #2196f3;
+  color: #fff;
+}

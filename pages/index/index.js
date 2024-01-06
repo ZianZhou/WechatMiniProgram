@@ -3,7 +3,7 @@ const defaultAvatarUrl = 'https://mmbiz.qpic.cn/mmbiz/icTdbqWNOwNRna42FI242Lcia0
 
 Component({
   data: {
-    motto: 'Hello World',
+    motto: 'Welcome to the app',
     userInfo: {
       avatarUrl: defaultAvatarUrl,
       nickName: '',
@@ -47,6 +47,11 @@ Component({
           })
         }
       })
+    },
+    navigateToLogin() {
+      wx.navigateTo({
+        url: '/pages/login/login', // Adjust the path based on your project structure
+      });
     },
   },
 })

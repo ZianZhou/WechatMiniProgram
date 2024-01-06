@@ -1,0 +1,25 @@
+<!-- pages/home/home.wxml -->
+
+<view class="container">
+  <view class="search-bar">
+    <input placeholder="课程：CHM101" />
+    <button bindtap="handleSearch">搜索</button>
+  </view>
+
+  <scroll-view class="course-list" scroll-y="true" style="height: 80vh;">
+    <!-- Add your course items here -->
+    <view class="course-item" wx:for="{{courseList}}" wx:key="{{item.id}}">
+      <view class="course-info">
+        <text class="course-title">{{item.title}}</text>
+        <text class="course-description">{{item.description}}</text>
+      </view>
+    </view>
+  </scroll-view>
+  <!-- <custom-navbar></custom-navbar> -->
+  <view class="custom-navbar">
+    <button bindtap="navigateToPage1">首页</button>
+    <button bindtap="navigateToPage2">页面1</button>
+    <button bindtap="navigateToPage3">页面2</button>
+    <button bindtap="navigateToPage4">页面3</button>
+  </view>
+</view>

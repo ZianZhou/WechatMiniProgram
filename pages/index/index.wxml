@@ -21,8 +21,11 @@
         <text class="userinfo-nickname">{{userInfo.nickName}}</text>
       </block>
     </view>
-    <view class="usermotto">
-      <text class="user-motto">{{motto}}</text>
-    </view>
+    <!-- <view class="usermotto">
+        <text class="user-motto">{{motto}}</text>
+      </view> -->
+    <button class="login-button" bindtap="navigateToLogin">登陆</button>
+  
+    <button>按钮</button>
   </view>
 </scroll-view>

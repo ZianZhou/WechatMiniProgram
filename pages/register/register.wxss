@@ -1,0 +1,43 @@
+/* pages/register/register.wxss */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  width: 80%;
+  max-width: 450rpx;
+  padding: 20rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 10rpx;
+  background-color: #fff;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 20rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+
+input {
+  width: 80%;
+  height: 40rpx;
+  margin-bottom: 20rpx;
+  padding: 0 10rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 5rpx;
+}
+
+button {
+  width: 60%;
+  height: 80rpx;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5rpx;
+  cursor: pointer;
+}

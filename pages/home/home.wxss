@@ -1,0 +1,66 @@
+/* pages/home/home.wxss */
+
+.container {
+  margin-top: 40rpx;
+  padding: 30rpx 20rpx; /* Add more padding above the search bar */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+input {
+  flex: 1; /* Take remaining space */
+  height: 40rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 5rpx;
+  padding: 5rpx;
+}
+
+button {
+  margin-left: 10rpx;
+  height: 80rpx; /* Adjust the height of the button */
+  width: 40rpx; /* Adjust the width of the button */
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 5rpx;
+  cursor: pointer;
+}
+
+.course-list {
+  /* Add styling for the course list */
+}
+
+.course-item {
+  display: flex;
+  margin-bottom: 20rpx;
+}
+
+.course-info {
+  flex: 1;
+}
+
+.course-title {
+  font-size: 26rpx;
+  font-weight: bold;
+}
+
+.course-description {
+  font-size: 24rpx;
+}
+
+.custom-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60rpx;
+  background-color: #b6d7f1;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 2rpx;
+}

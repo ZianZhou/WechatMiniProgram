@@ -1,0 +1,8 @@
+<!-- components/custom-navbar/custom-navbar.wxml -->
+
+<view class="navbar">
+  <button bindtap="navigateToPage1">Page 1</button>
+  <button bindtap="navigateToPage2">Page 2</button>
+  <button bindtap="navigateToPage3">Page 3</button>
+  <button bindtap="navigateToPage4">Page 4</button>
+</view>

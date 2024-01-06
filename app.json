@@ -1,7 +1,10 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/home/home",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/logs/logs",
+    "pages/index/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",

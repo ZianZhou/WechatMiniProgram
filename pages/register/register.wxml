@@ -1,0 +1,14 @@
+<!-- pages/register/register.wxml -->
+
+<view class="container">
+  <view class="form">
+    <text class="title">注册</text>
+    <input bindinput="handleUsernameInput" placeholder="用户名" />
+    <input bindinput="handlePasswordInput" type="password" placeholder="密码" />
+    <input bindinput="handlePasswordInput" placeholder="学年" />
+    <input bindinput="handlePasswordInput" placeholder="专业" />
+    <input bindinput="handlePasswordInput" placeholder="年龄" />
+    <input bindinput="handlePasswordInput" placeholder="校区" />
+    <button bindtap="handleRegister">注册</button>
+  </view>
+</view>
